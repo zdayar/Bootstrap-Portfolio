@@ -47,6 +47,13 @@ h3 {
 }
 
 /* Header styling */
+.navbar-brand,
+.navbar-brand:hover,
+.navbar-brand:focus {
+    background: #4aaaa5!important;
+    color: #fff!important;
+}
+
 .logo {
     width: 250px;
     height: 90px;
@@ -54,12 +61,6 @@ h3 {
     font-size: 30px;
     font-weight: 700;
     line-height: 60px;
-    color: #fff!important;
-    background: #4aaaa5;
-}
-
-.logo:hover {
-    color: #fff;
 }
 
 .navbar {
@@ -183,5 +184,4 @@ footer {
     .auth-image {
         width: 100%;
     }
-
 }
